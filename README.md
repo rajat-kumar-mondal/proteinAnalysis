@@ -13,3 +13,48 @@ python 3.10 or higher versions required.
 proteinAnalysis package has the following features:
 
    1. The package is written in pure python language. No built-in modules in the python software is required for this package.
+   2. The package is absolutely free for academic users. They can distribute it. For commercial purpose, they must contact with the author.
+   3. The package can be used to analyse various compositions of a protein sequence.
+   4. There is no limitation on size of the protein sequence.
+
+Following things can be computed by using  proteinAnalysis
+   
+   1. Missing Amino Acid(s)
+   2. Most Occurring Amino Acid(s)
+   3. Less Occurring Amino Acid(s)
+   4. Hydrophobic Amino Acid(s) Count
+   5. Hydrophilic Amino Acid(s) Count
+   6. Basic Amino Acid(s) Count
+   7. Acidic Amino Acid(s) Count
+   8. Modified Amino Acid(s) Count
+   9. Modified Amino Acid(s) Frequencies
+
+## Download the package
+The package can be download by right click and then 'Save link as..'
+
+## Usage example
+```python
+# import the package
+from proteinAnalysis import proteinAnalysis as pan
+
+# take a protein sequence
+seq = 'GAVLIUXGAA'
+
+# create a object of the class and pass the seq
+panObj = pan(seq)
+
+# call methods to print the composition details of the seq
+print(panObj.missingResidues())
+print(panObj.mostOccuringResidues())
+print(panObj.lessOccuringResidues())
+print(panObj.hydrophobicAACount())
+print(panObj.hydrophilicAACount())
+print(panObj.acidicAACount())
+print(panObj.basicAACount())
+print(panObj.modifiedAACount())
+print(panObj.modifiedAAFrequency())
+```
+
+
+
+
