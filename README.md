@@ -3,3 +3,5 @@
 
 This package is written in pure python language to compute very basic composition of a protein sequence.
 
+## Introduction
+
