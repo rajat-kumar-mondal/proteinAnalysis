@@ -65,7 +65,7 @@ class proteinAnalysis:
 
 
 if __name__ == "__main__":
-    seq = 'GAoouuxxzzrneeee'
+    seq = 'LLALLLTSTPEALGANPGLVARTTD'
     obj = proteinAnalysis(seq)
     print(obj.missingResidues())
     print(obj.mostOccuringResidues())
