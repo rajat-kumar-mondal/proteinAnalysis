@@ -6,6 +6,9 @@ This package is written in pure Python to compute very basic composition of a pr
 ## Introduction
 It is very important to know the compositional details for any kind of protein-related study. The composition of a protein plays a crucial role in determining its type (hydrophobic or hydrophilic), activity, and behavior. This package can be used to find various compositional details of a protein. This package does not compute the count of all amino acids and their frequencies, as this function is already implemented in the `ProteinAnalysis` class in the `ProtParam` module of the `biopython` package. Except for amino acid count and frequency, other compositional details can be computed by this package.
 
+## Development Background
+The development of this package was part of the **Anti-microbial Peptide Database version 1 (AMPDB v1)** project, which has been published in **Nature Scientific Reports** by **Nature Publishing Group UK**. Click on the DOI in the citation section below to see the article.
+
 ## Requirements
 Python 3.10 or higher versions required.
 
@@ -55,10 +58,6 @@ print(panObj.modifiedAACount())
 print(panObj.modifiedAAFrequency())
 ```
 
-## Development Background
-The development of this package was part of the **Anti-microbial Peptide Database version 1 (AMPDB v1)** project, which has been published in **Nature Scientific Reports** by **Nature Publishing Group UK**. Click on the DOI in the citation section below to see the article.
-
 ## Citation
 **Mondal, R.K., Sen, D., Arya, A., and Samanta, S.K., 2023.** Developing anti-microbial peptide database version 1 to provide comprehensive and exhaustive resource of manually curated AMPs. *Scientific Reports, 13(1), p.17843.*  
 **DOI:** [https://doi.org/10.1038/s41598-023-45016-3](https://doi.org/10.1038/s41598-023-45016-3)
-
