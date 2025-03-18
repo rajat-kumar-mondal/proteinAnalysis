@@ -56,7 +56,7 @@ print(panObj.modifiedAAFrequency())
 ```
 
 ## Development Background
-The development of this package was part of the **Anti-microbial Peptide Database version 1 (AMPDB v1)** project, which has been published in **Nature Scientific Reports**. Click on the DOI in the citation section below to see the article.
+The development of this package was part of the **Anti-microbial Peptide Database version 1 (AMPDB v1)** project, which has been published in **Nature Scientific Reports** by **Nature Publishing Group UK**. Click on the DOI in the citation section below to see the article.
 
 ## Citation
 **Mondal, R.K., Sen, D., Arya, A., and Samanta, S.K., 2023.** Developing anti-microbial peptide database version 1 to provide comprehensive and exhaustive resource of manually curated AMPs. *Scientific Reports, 13(1), p.17843.*  
